@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12497461D62133B006DF287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12497451D62133B006DF287 /* AppDelegate.swift */; };
+		C12497481D62133B006DF287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12497471D62133B006DF287 /* ViewController.swift */; };
+		C124974B1D62133B006DF287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12497491D62133B006DF287 /* Main.storyboard */; };
+		C124974D1D62133B006DF287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C124974C1D62133B006DF287 /* Assets.xcassets */; };
+		C12497501D62133B006DF287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C124974E1D62133B006DF287 /* LaunchScreen.storyboard */; };
+		C12497581D621357006DF287 /* SCLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12497571D621357006DF287 /* SCLineView.swift */; };
+		C124975A1D62197A006DF287 /* SCLineFreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12497591D62197A006DF287 /* SCLineFreshControl.swift */; };
+		C1D95EB11D694A2C00197A08 /* LineRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D95EB01D694A2C00197A08 /* LineRefreshViewController.swift */; };
+		C1D95EB51D69546C00197A08 /* demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1D95EB41D69546C00197A08 /* demo.plist */; };
+		C1F8EADB1D64AD7E00719906 /* snow.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F8EADA1D64AD7E00719906 /* snow.plist */; };
+		C1F8EADD1D64AEB900719906 /* drawLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8EADC1D64AEB900719906 /* drawLineView.swift */; };
+		C1F8EADF1D64BAA000719906 /* star.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F8EADE1D64BAA000719906 /* star.plist */; };
+		C1F8EAE11D64BF3800719906 /* CustomLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8EAE01D64BF3800719906 /* CustomLineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C12497421D62133B006DF287 /* SCLineRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCLineRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12497451D62133B006DF287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C12497471D62133B006DF287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C124974A1D62133B006DF287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C124974C1D62133B006DF287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C124974F1D62133B006DF287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C12497511D62133B006DF287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12497571D621357006DF287 /* SCLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLineView.swift; sourceTree = "<group>"; };
+		C12497591D62197A006DF287 /* SCLineFreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLineFreshControl.swift; sourceTree = "<group>"; };
+		C1D95EB01D694A2C00197A08 /* LineRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineRefreshViewController.swift; sourceTree = "<group>"; };
+		C1D95EB41D69546C00197A08 /* demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = demo.plist; sourceTree = "<group>"; };
+		C1F8EADA1D64AD7E00719906 /* snow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = snow.plist; sourceTree = "<group>"; };
+		C1F8EADC1D64AEB900719906 /* drawLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawLineView.swift; sourceTree = "<group>"; };
+		C1F8EADE1D64BAA000719906 /* star.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = star.plist; sourceTree = "<group>"; };
+		C1F8EAE01D64BF3800719906 /* CustomLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C124973F1D62133B006DF287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12497391D62133B006DF287 = {
+			isa = PBXGroup;
+			children = (
+				C12497441D62133B006DF287 /* SCLineRefresh */,
+				C12497431D62133B006DF287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12497431D62133B006DF287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12497421D62133B006DF287 /* SCLineRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12497441D62133B006DF287 /* SCLineRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C12497571D621357006DF287 /* SCLineView.swift */,
+				C12497591D62197A006DF287 /* SCLineFreshControl.swift */,
+				C1D95EB41D69546C00197A08 /* demo.plist */,
+				C1F8EADA1D64AD7E00719906 /* snow.plist */,
+				C1F8EADE1D64BAA000719906 /* star.plist */,
+				C12497451D62133B006DF287 /* AppDelegate.swift */,
+				C12497471D62133B006DF287 /* ViewController.swift */,
+				C1D95EB01D694A2C00197A08 /* LineRefreshViewController.swift */,
+				C1F8EADC1D64AEB900719906 /* drawLineView.swift */,
+				C1F8EAE01D64BF3800719906 /* CustomLineView.swift */,
+				C12497491D62133B006DF287 /* Main.storyboard */,
+				C124974C1D62133B006DF287 /* Assets.xcassets */,
+				C124974E1D62133B006DF287 /* LaunchScreen.storyboard */,
+				C12497511D62133B006DF287 /* Info.plist */,
+			);
+			path = SCLineRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12497411D62133B006DF287 /* SCLineRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12497541D62133B006DF287 /* Build configuration list for PBXNativeTarget "SCLineRefresh" */;
+			buildPhases = (
+				C124973E1D62133B006DF287 /* Sources */,
+				C124973F1D62133B006DF287 /* Frameworks */,
+				C12497401D62133B006DF287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLineRefresh;
+			productName = SCLineRefresh;
+			productReference = C12497421D62133B006DF287 /* SCLineRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C124973A1D62133B006DF287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SnowCheng;
+				TargetAttributes = {
+					C12497411D62133B006DF287 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C124973D1D62133B006DF287 /* Build configuration list for PBXProject "SCLineRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12497391D62133B006DF287;
+			productRefGroup = C12497431D62133B006DF287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12497411D62133B006DF287 /* SCLineRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12497401D62133B006DF287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12497501D62133B006DF287 /* LaunchScreen.storyboard in Resources */,
+				C1D95EB51D69546C00197A08 /* demo.plist in Resources */,
+				C124974D1D62133B006DF287 /* Assets.xcassets in Resources */,
+				C124974B1D62133B006DF287 /* Main.storyboard in Resources */,
+				C1F8EADB1D64AD7E00719906 /* snow.plist in Resources */,
+				C1F8EADF1D64BAA000719906 /* star.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C124973E1D62133B006DF287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12497481D62133B006DF287 /* ViewController.swift in Sources */,
+				C1F8EAE11D64BF3800719906 /* CustomLineView.swift in Sources */,
+				C1F8EADD1D64AEB900719906 /* drawLineView.swift in Sources */,
+				C12497581D621357006DF287 /* SCLineView.swift in Sources */,
+				C1D95EB11D694A2C00197A08 /* LineRefreshViewController.swift in Sources */,
+				C124975A1D62197A006DF287 /* SCLineFreshControl.swift in Sources */,
+				C12497461D62133B006DF287 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C12497491D62133B006DF287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C124974A1D62133B006DF287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C124974E1D62133B006DF287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C124974F1D62133B006DF287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12497521D62133B006DF287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12497531D62133B006DF287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12497551D62133B006DF287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCLineRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyunxiao.SCLineRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C12497561D62133B006DF287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCLineRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyunxiao.SCLineRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C124973D1D62133B006DF287 /* Build configuration list for PBXProject "SCLineRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12497521D62133B006DF287 /* Debug */,
+				C12497531D62133B006DF287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12497541D62133B006DF287 /* Build configuration list for PBXNativeTarget "SCLineRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12497551D62133B006DF287 /* Debug */,
+				C12497561D62133B006DF287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C124973A1D62133B006DF287 /* Project object */;
+}
